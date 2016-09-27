@@ -10,7 +10,7 @@
 	<properties>
 		<performancetest.threadCount>2</performancetest.threadCount>
 		<performancetest.loopCount>1</performancetest.loopCount>
-		<performancetest.rammpup>1</performancetest.rammpup>
+		<performancetest.rampup>1</performancetest.rampup>
 	</properties>
 
 	<build>
@@ -22,7 +22,7 @@
 				<configuration>
 					<testResultsTimestamp>false</testResultsTimestamp>
 					<propertiesUser>
-						<rammpup>${performancetest.rammpup}</rammpup>
+						<rampup>${performancetest.rampup}</rampup>
 						<threadCount>${performancetest.threadCount}</threadCount>
 						<loopCount>${performancetest.threadCount}</loopCount>
 					</propertiesUser>
