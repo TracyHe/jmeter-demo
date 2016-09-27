@@ -16,6 +16,10 @@
 				<version>1.4.1</version>
 				<configuration>
 					<testResultsTimestamp>false</testResultsTimestamp>
+					<propertiesUser>                 
+                        			<threadCount>${performancetest.threadCount}</threadCount>
+                        			<loopCount>${performancetest.threadCount}</loopCount>
+                   			</propertiesUser>
 				</configuration>
 				<executions>
 					<execution>
